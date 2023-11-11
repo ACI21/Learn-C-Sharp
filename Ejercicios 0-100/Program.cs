@@ -70,10 +70,10 @@ class Program
                 Ejercicios_0_100.Ejercicio7.main();
                 break;
             case 8:
-                Ejercicios_0_100.Ejercicio6.main();
+                Ejercicios_0_100.Ejercicio8.main();
                 break;
             case 9:
-                Ejercicios_0_100.Ejercicio6.main();
+                Ejercicios_0_100.Ejercicio9.main();
                 break;
             case 10:
                 Ejercicios_0_100.Ejercicio6.main();
