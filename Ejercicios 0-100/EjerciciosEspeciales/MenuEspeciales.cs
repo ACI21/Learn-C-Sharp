@@ -1,17 +1,18 @@
 ﻿namespace Ejercicios_0_100;
 
-public class Program
+public class MenuEspeciales
 {
-    static void Main(string[] args)
+    public static void main()
     {
         int opciones = 0;
 
         do
         {
             Console.WriteLine("********* MENU DE EJERCICIOS **************");
-            Console.WriteLine("*       1 -> Ejercicios Básicos           *");
-            Console.WriteLine("*       2 -> Ejercicios Especiales        *");
-            Console.WriteLine("*       0 -> Salir del programa           *");
+            Console.WriteLine("*       1 -> Ejercicio Especular          *");
+            Console.WriteLine("*       2 -> Ejercicio Ahorcado           *");
+            Console.WriteLine("*       3 -> Ejercicio Numero secreto     *");
+            Console.WriteLine("*       0 -> Volver al menú anterior      *");
             Console.WriteLine("*******************************************");
 
             try
@@ -35,10 +36,13 @@ public class Program
                 Console.WriteLine("Hasta luego y suerte 😂.");
                 break;
             case 1:
-                Ejercicios_0_100.MenuBasico.main();
+                Ejercicios_0_100.Especular.main();
                 break;
             case 2:
-                Ejercicios_0_100.MenuEspeciales.main();
+                Ejercicios_0_100.Ahorcado.main();
+                break;
+            case 3:
+                Ejercicios_0_100.NumeroSecreto.main();
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");
@@ -46,3 +50,4 @@ public class Program
         }
     }
 }
+
