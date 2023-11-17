@@ -38,7 +38,7 @@ public class MenuExamenes
                 Ejercicios_0_100.TerrenosArea.main();
                 break;
             case 2:
-                Ejercicios_0_100.Ahorcado.main();
+                Ejercicios_0_100.Ascensor.main();
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");
