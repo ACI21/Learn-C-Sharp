@@ -82,10 +82,10 @@ public class MenuBasico
                 Ejercicios_0_100.Ejercicio11.main();
                 break;
             case 12:
-                Ejercicios_0_100.Ejercicio6.main();
+                Ejercicios_0_100.Ejercicio12.main();
                 break;
             case 13:
-                Ejercicios_0_100.Ejercicio6.main();
+                Ejercicios_0_100.Ejercicio13.main();
                 break;
             case 14:
                 Ejercicios_0_100.Ejercicio6.main();

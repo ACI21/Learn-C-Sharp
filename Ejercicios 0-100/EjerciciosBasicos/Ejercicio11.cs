@@ -4,7 +4,7 @@ public class Ejercicio11
 {
     public static void main()
     {
-        int diaSemana = 1;
+        int diaSemana = 0 ;
         
         Console.Write("Introduce dia de la semana(1-7): ");
         diaSemana = int.Parse(Console.ReadLine() ?? "1");

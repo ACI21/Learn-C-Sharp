@@ -1,18 +1,17 @@
 ﻿namespace Ejercicios_0_100;
 
-public class Program
+public class MenuExamenes
 {
-    static void Main(string[] args)
+    public static void main()
     {
         int opciones = 0;
 
         do
         {
             Console.WriteLine("********* MENU DE EJERCICIOS **************");
-            Console.WriteLine("*       1 -> Ejercicios Básicos           *");
-            Console.WriteLine("*       2 -> Ejercicios Especiales        *");
-            Console.WriteLine("*       2 -> Ejercicios Examen            *");
-            Console.WriteLine("*       0 -> Salir del programa           *");
+            Console.WriteLine("*       1 -> Ejercicio Terrenos           *");
+            Console.WriteLine("*       2 -> Ejercicio Ascensor           *");
+            Console.WriteLine("*       0 -> Volver al menú anterior      *");
             Console.WriteLine("*******************************************");
 
             try
@@ -36,13 +35,10 @@ public class Program
                 Console.WriteLine("Hasta luego y suerte 😂.");
                 break;
             case 1:
-                Ejercicios_0_100.MenuBasico.main();
+                Ejercicios_0_100.TerrenosArea.main();
                 break;
             case 2:
-                Ejercicios_0_100.MenuEspeciales.main();
-                break;
-            case 3:
-                Ejercicios_0_100.MenuExamenes.main();
+                Ejercicios_0_100.Ahorcado.main();
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");
@@ -50,3 +46,4 @@ public class Program
         }
     }
 }
+
