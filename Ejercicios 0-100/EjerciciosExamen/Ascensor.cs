@@ -8,7 +8,7 @@ public class Ascensor
     const short VISITASMAXIMAS = 10;
     const short VISITASMINIMAS = 5;
     const short PORCENTAJEUSOASCENSOR = 2;
-    public static void Main(string[] args)
+    public static void main()
     {
         int plantaActual = 0;
         int plantaAscensor = 0;
