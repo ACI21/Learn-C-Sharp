@@ -11,7 +11,7 @@ public class Program
             Console.WriteLine("********* MENU DE EJERCICIOS **************");
             Console.WriteLine("*       1 -> Ejercicios Básicos           *");
             Console.WriteLine("*       2 -> Ejercicios Especiales        *");
-            Console.WriteLine("*       2 -> Ejercicios Examen            *");
+            Console.WriteLine("*       3 -> Ejercicios Examen            *");
             Console.WriteLine("*       0 -> Salir del programa           *");
             Console.WriteLine("*******************************************");
 
