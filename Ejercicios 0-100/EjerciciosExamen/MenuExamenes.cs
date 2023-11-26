@@ -11,6 +11,10 @@ public class MenuExamenes
             Console.WriteLine("********* MENU DE EJERCICIOS **************");
             Console.WriteLine("*       1 -> Ejercicio Terrenos           *");
             Console.WriteLine("*       2 -> Ejercicio Ascensor           *");
+            Console.WriteLine("*       3 -> Ejercicio Gestion Stock      *");
+            Console.WriteLine("*       4 -> Ejercicio VAN                *");
+            Console.WriteLine("*       5 -> Ejercicio Correos            *");
+            Console.WriteLine("*       6 -> Ejercicio Alpinismo          *");
             Console.WriteLine("*       0 -> Volver al menú anterior      *");
             Console.WriteLine("*******************************************");
 
@@ -39,6 +43,18 @@ public class MenuExamenes
                 break;
             case 2:
                 Ejercicios_0_100.Ascensor.main();
+                break;
+            case 3:
+                Ejercicios_0_100.GestionInventario.main();
+                break;
+            case 4:
+                Ejercicios_0_100.ValorActualNeto.main();
+                break;
+            case 5:
+                Ejercicios_0_100.CorreoOfuscado.main();
+                break;
+            case 6:
+                Ejercicios_0_100.Alpinismo.main();
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");
