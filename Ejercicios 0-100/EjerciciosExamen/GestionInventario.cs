@@ -8,7 +8,7 @@ public class GestionInventario
         string categoria = "";
         double precio = 0.0;
         int stock = 0;
-
+        
         Console.WriteLine("Sistema de Gestión de Inventario");
         Console.WriteLine("Introduce los datos del producto:");
 
