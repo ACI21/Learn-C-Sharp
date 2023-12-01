@@ -1,6 +1,6 @@
 ﻿namespace Ejercicios_0_100;
 
-public class Ejercicio17
+public class EjercicioPaisArray
 {
     public static void main()
     {

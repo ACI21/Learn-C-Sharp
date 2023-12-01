@@ -25,9 +25,6 @@ public class MenuBasico
             Console.WriteLine("*       14 -> Ejercicio 1 --> X           *");
             Console.WriteLine("*       15 -> Ejercicio Tabla multiplicar *");
             Console.WriteLine("*       16 -> Ejercicio Tablas 1-10       *");
-            Console.WriteLine("*       17 -> Ejercicio Arrays Bi-D       *");
-            Console.WriteLine("*       18 -> Ejercicio Arrays Bi-D       *");
-            Console.WriteLine("*       19 -> Ejercicio Arrays Bi-D       *");
             Console.WriteLine("*       0 -> Volver al menu anterior      *");
             Console.WriteLine("*******************************************");
 
@@ -98,15 +95,6 @@ public class MenuBasico
                 break;
             case 16:
                 Ejercicios_0_100.Ejercicio6.main();
-                break;
-            case 17:
-                Ejercicios_0_100.Ejercicio17.main();
-                break;
-            case 18:
-                Ejercicios_0_100.Ejercicio18.main();
-                break;
-            case 19:
-                Ejercicios_0_100.Ejercicio19.main();
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");

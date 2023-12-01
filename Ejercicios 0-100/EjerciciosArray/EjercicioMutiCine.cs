@@ -1,7 +1,7 @@
 ﻿
 namespace Ejercicios_0_100;
 
-public class Ejercicio18
+public class EjercicioMutiCine
 {
     public static void main()
     {

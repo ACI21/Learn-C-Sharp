@@ -1,6 +1,6 @@
 ﻿namespace Ejercicios_0_100;
 
-public class Ejercicio19
+public class EjercicioArrayDentado
 {
     public static void main()
     {
