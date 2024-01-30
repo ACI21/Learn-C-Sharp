@@ -13,13 +13,14 @@ public class Program
             Console.WriteLine("*       2 -> Ejercicios Arrays            *");
             Console.WriteLine("*       3 -> Ejercicios Especiales        *");
             Console.WriteLine("*       4 -> Ejercicios Examen            *");
+            Console.WriteLine("*       5 -> Ejercicios Excepciones       *");
             Console.WriteLine("*       0 -> Salir del programa           *");
             Console.WriteLine("*******************************************");
 
             try
             {
                 opciones = int.Parse(Console.ReadLine() ?? "0");
-                AbrirEjercicio(opciones);
+                AbrirEjercicio(opciones, args);
             }
             catch (Exception err)
             {
@@ -29,7 +30,7 @@ public class Program
         } while (opciones != 0);
     }
 
-    private static void AbrirEjercicio(int opciones)
+    private static void AbrirEjercicio(int opciones, string[] args)
     {
         switch (opciones)
         {
@@ -47,6 +48,9 @@ public class Program
                 break;
             case 4:
                 Ejercicios_0_100.MenuExamenes.main();
+                break;
+            case 5:
+                Ejercicios_Excepciones.MenuExcepciones.main(args);
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");

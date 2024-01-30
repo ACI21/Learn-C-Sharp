@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ruthyal/Documents/Alumnos/Programacion/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj",
+      "projectUniqueName": "/Users/ruthyal/Documents/GitHub/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj",
       "projectName": "Ejercicios 0-100",
-      "projectPath": "/Users/ruthyal/Documents/Alumnos/Programacion/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj",
+      "projectPath": "/Users/ruthyal/Documents/GitHub/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj",
       "packagesPath": "/Users/ruthyal/.nuget/packages/",
-      "outputPath": "/Users/ruthyal/Documents/Alumnos/Programacion/Learn C#/Ejercicios 0-100/obj/",
+      "outputPath": "/Users/ruthyal/Documents/GitHub/Learn C#/Ejercicios 0-100/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ruthyal/.nuget/NuGet/NuGet.Config"
