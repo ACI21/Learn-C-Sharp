@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ruthyal/Documents/GitHub/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj": {}
+    "/Users/ruthyal/Documents/Documentos - MacBook Air de CIA/GitHub/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj": {}
   },
   "projects": {
-    "/Users/ruthyal/Documents/GitHub/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj": {
+    "/Users/ruthyal/Documents/Documentos - MacBook Air de CIA/GitHub/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ruthyal/Documents/GitHub/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj",
+        "projectUniqueName": "/Users/ruthyal/Documents/Documentos - MacBook Air de CIA/GitHub/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj",
         "projectName": "Ejercicios 0-100",
-        "projectPath": "/Users/ruthyal/Documents/GitHub/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj",
+        "projectPath": "/Users/ruthyal/Documents/Documentos - MacBook Air de CIA/GitHub/Learn C#/Ejercicios 0-100/Ejercicios 0-100.csproj",
         "packagesPath": "/Users/ruthyal/.nuget/packages/",
-        "outputPath": "/Users/ruthyal/Documents/GitHub/Learn C#/Ejercicios 0-100/obj/",
+        "outputPath": "/Users/ruthyal/Documents/Documentos - MacBook Air de CIA/GitHub/Learn C#/Ejercicios 0-100/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ruthyal/.nuget/NuGet/NuGet.Config"

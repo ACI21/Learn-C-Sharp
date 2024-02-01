@@ -14,6 +14,7 @@ public class Program
             Console.WriteLine("*       3 -> Ejercicios Especiales        *");
             Console.WriteLine("*       4 -> Ejercicios Examen            *");
             Console.WriteLine("*       5 -> Ejercicios Excepciones       *");
+            Console.WriteLine("*       6 -> Ejercicios Ficheros          *");
             Console.WriteLine("*       0 -> Salir del programa           *");
             Console.WriteLine("*******************************************");
 
@@ -52,8 +53,11 @@ public class Program
             case 5:
                 Ejercicios_Excepciones.MenuExcepciones.main(args);
                 break;
+            case 6:
+                Ejercicios_Ficheros.MenuFicheros.main(args);
+                break;
             default:
-                Console.Error.WriteLine("El ejercicio no existe todavía.");
+                Console.Error.WriteLine("El paquete no existe todavía.");
                 break;
         }
     }
