@@ -1,4 +1,4 @@
-﻿namespace Ejercicios_0_100;
+﻿namespace Ejercicios_Examen;
 
 public class MenuExamenes
 {
@@ -39,22 +39,22 @@ public class MenuExamenes
                 Console.WriteLine("Hasta luego y suerte 😂.");
                 break;
             case 1:
-                Ejercicios_0_100.TerrenosArea.main();
+                Ejercicios_Examen.TerrenosArea.main();
                 break;
             case 2:
-                Ejercicios_0_100.Ascensor.main();
+                Ejercicios_Examen.Ascensor.main();
                 break;
             case 3:
-                Ejercicios_0_100.GestionInventario.main();
+                Ejercicios_Examen.GestionInventario.main();
                 break;
             case 4:
-                Ejercicios_0_100.ValorActualNeto.main();
+                Ejercicios_Examen.ValorActualNeto.main();
                 break;
             case 5:
-                Ejercicios_0_100.CorreoOfuscado.main();
+                Ejercicios_Examen.CorreoOfuscado.main();
                 break;
             case 6:
-                Ejercicios_0_100.Alpinismo.main();
+                Ejercicios_Examen.Alpinismo.main();
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");

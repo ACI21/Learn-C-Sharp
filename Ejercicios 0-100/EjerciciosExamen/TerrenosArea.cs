@@ -1,7 +1,6 @@
-﻿
-using System.Text;
+﻿namespace Ejercicios_Examen;
 
-namespace Ejercicios_0_100;
+using System.Text;
 
 public class TerrenosArea
 {

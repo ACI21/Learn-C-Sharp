@@ -45,10 +45,10 @@ public class Program
                 Ejercicios_0_100.MenuArrays.main();
                 break;
             case 3:
-                Ejercicios_0_100.MenuEspeciales.main();
+                Ejercicios_Especiales.MenuEspeciales.main();
                 break;
             case 4:
-                Ejercicios_0_100.MenuExamenes.main();
+                Ejercicios_Examen.MenuExamenes.main();
                 break;
             case 5:
                 Ejercicios_Excepciones.MenuExcepciones.main(args);

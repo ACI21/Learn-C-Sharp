@@ -1,7 +1,7 @@
-﻿using System.Data.Common;
-using System.Text;
+﻿namespace Ejercicios_Especiales;
 
-namespace Ejercicios_0_100;
+using System.Data.Common;
+using System.Text;
 
 public class Ahorcado
 {

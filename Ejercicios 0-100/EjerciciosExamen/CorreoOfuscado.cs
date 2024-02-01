@@ -1,9 +1,6 @@
-﻿
-
+﻿namespace Ejercicios_Examen;
 
 using System.Text;
-
-namespace Ejercicios_0_100;
 
 public class CorreoOfuscado
 {

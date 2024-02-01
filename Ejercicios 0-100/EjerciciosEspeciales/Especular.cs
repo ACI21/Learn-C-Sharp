@@ -1,6 +1,6 @@
-﻿using System.Text;
+﻿namespace Ejercicios_Especiales;
 
-namespace Ejercicios_0_100;
+using System.Text;
 
 public class Especular
 {

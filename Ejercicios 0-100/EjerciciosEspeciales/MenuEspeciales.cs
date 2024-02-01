@@ -1,4 +1,4 @@
-﻿namespace Ejercicios_0_100;
+﻿namespace Ejercicios_Especiales;
 
 public class MenuEspeciales
 {
@@ -36,13 +36,13 @@ public class MenuEspeciales
                 Console.WriteLine("Hasta luego y suerte 😂.");
                 break;
             case 1:
-                Ejercicios_0_100.Especular.main();
+                Ejercicios_Especiales.Especular.main();
                 break;
             case 2:
-                Ejercicios_0_100.Ahorcado.main();
+                Ejercicios_Especiales.Ahorcado.main();
                 break;
             case 3:
-                Ejercicios_0_100.NumeroSecreto.main();
+                Ejercicios_Especiales.NumeroSecreto.main();
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");
