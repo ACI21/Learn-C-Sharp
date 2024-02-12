@@ -48,7 +48,7 @@ public class Program
                 Ejercicios_Especiales.MenuEspeciales.main();
                 break;
             case 4:
-                Ejercicios_Examen.MenuExamenes.main();
+                Ejercicios_Examen.MenuExamenes.main(args);
                 break;
             case 5:
                 Ejercicios_Excepciones.MenuExcepciones.main(args);

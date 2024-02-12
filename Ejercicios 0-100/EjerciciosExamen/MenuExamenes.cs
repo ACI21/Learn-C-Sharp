@@ -2,7 +2,7 @@
 
 public class MenuExamenes
 {
-    public static void main()
+    public static void main(string [] args)
     {
         int opciones = 0;
 
@@ -15,13 +15,15 @@ public class MenuExamenes
             Console.WriteLine("*       4 -> Ejercicio VAN                *");
             Console.WriteLine("*       5 -> Ejercicio Correos            *");
             Console.WriteLine("*       6 -> Ejercicio Alpinismo          *");
+            Console.WriteLine("*       7 -> Ejercicio Ajedrez            *");
+            Console.WriteLine("*       8 -> Ejercicio Ruta HTML          *");
             Console.WriteLine("*       0 -> Volver al menú anterior      *");
             Console.WriteLine("*******************************************");
 
             try
             {
                 opciones = int.Parse(Console.ReadLine() ?? "0");
-                AbrirEjercicio(opciones);
+                AbrirEjercicio(opciones, args);
             }
             catch (Exception err)
             {
@@ -31,7 +33,7 @@ public class MenuExamenes
         } while (opciones != 0);
     }
 
-    private static void AbrirEjercicio(int opciones)
+    private static void AbrirEjercicio(int opciones, string[] args)
     {
         switch (opciones)
         {
@@ -55,6 +57,12 @@ public class MenuExamenes
                 break;
             case 6:
                 Ejercicios_Examen.Alpinismo.main();
+                break;
+            case 7:
+                Ejercicios_Examen.Ajedrez.main();
+                break;
+            case 8:
+                Ejercicios_Examen.FicheroHTML.main(args);
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");
