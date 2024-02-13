@@ -6,6 +6,10 @@ public abstract class Pieza
 {
     private readonly ColorAjedrez color;
 
+    public Pieza(ColorAjedrez color){
+        this.color = color;
+    }
+
     public ColorAjedrez GetColor(){
         return color;
     }
@@ -18,5 +22,4 @@ public abstract class Pieza
     {
         return $"{Nombre()} {color}";
     }
-
 }

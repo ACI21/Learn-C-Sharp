@@ -1,5 +1,6 @@
 namespace Ejercicios_Examen;
- public enum ColorAjedrez
- {
-    Blanco, Negro
- }
+
+public enum ColorAjedrez
+{
+   Blanco, Negro
+}
