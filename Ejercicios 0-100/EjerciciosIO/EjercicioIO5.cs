@@ -2,7 +2,7 @@
 
 public class EjercicioIO5
 {
-    public static void Main()
+    public static void main()
     {
         // Ruta del archivo datos.txt en la carpeta datos del directorio raíz de la unidad C:
         string filePath = @"C:\pruebasCSharp\datos.txt";

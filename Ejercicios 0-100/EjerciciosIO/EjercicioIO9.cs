@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 public class EjercicioIO9
 {
-    public static void Main()
+    public static void main()
     {
         // Pedir al usuario la subcadena a buscar
         Console.WriteLine("Introduce la subcadena a buscar:");

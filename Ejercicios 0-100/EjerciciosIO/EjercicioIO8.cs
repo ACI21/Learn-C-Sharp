@@ -2,7 +2,7 @@
 
 public class EjercicioIO8
 {
-    public static void Main(string[] args)
+    public static void main(string[] args)
     {
         // Verificar que se haya proporcionado al menos dos argumentos (palabra y al menos un archivo)
         if (args.Length < 2)

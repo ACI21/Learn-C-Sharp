@@ -6,7 +6,7 @@ using System.Text;
 
 public class EjercicioIO7
 {
-    public static void Main(string[] args)
+    public static void main(string[] args)
     {
         // Verificar que se haya proporcionado un argumento (ruta del archivo)
         if (args.Length != 1)

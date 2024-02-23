@@ -2,7 +2,7 @@
 
 public class EjercicioIO6
 {
-    public static void Main()
+    public static void main()
     {
         // Recoger microprocesadores por teclado
         Microprocesador[] microprocesadores = RecogerMicroprocesadores();

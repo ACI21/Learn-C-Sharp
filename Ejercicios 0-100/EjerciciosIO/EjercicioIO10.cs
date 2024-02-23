@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 public class EjercicioIO10
 {
-    public static void Main()
+    public static void main()
     {
         // Pedir al usuario la ruta del archivo
         Console.WriteLine("Introduce la ruta del archivo:");

@@ -24,7 +24,7 @@ namespace Solution
             throw new ArgumentException();
         }
 
-        public static void Main()
+        public static void main()
         {   
             int countOfEmployees = int.Parse(Console.ReadLine());
             
