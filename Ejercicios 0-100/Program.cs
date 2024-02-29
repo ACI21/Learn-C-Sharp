@@ -15,6 +15,7 @@ public class Program
             Console.WriteLine("*       4 -> Ejercicios Examen            *");
             Console.WriteLine("*       5 -> Ejercicios Excepciones       *");
             Console.WriteLine("*       6 -> Ejercicios Ficheros          *");
+            Console.WriteLine("*       7 -> Ejercicios Polimorfismos     *");
             Console.WriteLine("*       0 -> Salir del programa           *");
             Console.WriteLine("*******************************************");
 
@@ -55,6 +56,9 @@ public class Program
                 break;
             case 6:
                 Ejercicios_Ficheros.MenuFicheros.main(args);
+                break;
+            case 7:
+                Ejercicios_Polimorfismos.MenuPolimorfismos.main(args);
                 break;
             default:
                 Console.Error.WriteLine("El paquete no existe todavía.");
