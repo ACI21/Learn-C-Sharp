@@ -18,6 +18,7 @@ public class MenuExamenes
             Console.WriteLine("*       7 -> Ejercicio Ajedrez            *");
             Console.WriteLine("*       8 -> Ejercicio Ruta HTML          *");
             Console.WriteLine("*       9 -> Ejercicio Escuela            *");
+            Console.WriteLine("*       10 -> Ejercicio Rutas             *");
             Console.WriteLine("*       0 -> Volver al menú anterior      *");
             Console.WriteLine("*******************************************");
 
@@ -67,6 +68,9 @@ public class MenuExamenes
                 break;
             case 9:
                 Ejercicios_Examen.Program.main();
+                break;
+            case 10:
+                Ejercicios_Examen.Fichero.main(args);
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");
