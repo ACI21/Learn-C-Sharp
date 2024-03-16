@@ -17,6 +17,7 @@ public class Program
             Console.WriteLine("*       6 -> Ejercicios Ficheros          *");
             Console.WriteLine("*       7 -> Ejercicios Polimorfismos     *");
             Console.WriteLine("*       8 -> Ejercicios Redefinicion      *");
+            Console.WriteLine("*       9 -> Ejercicios Interfaces        *");
             Console.WriteLine("*       0 -> Salir del programa           *");
             Console.WriteLine("*******************************************");
 
@@ -63,6 +64,9 @@ public class Program
                 break;
             case 8:
                 Ejercicios_Redefinicion_Operadores.MenuRedefinicion.main(args);
+                break;
+            case 9:
+                Ejercicios_Interfaces.MenuInterfaces.main(args);
                 break;
             default:
                 Console.Error.WriteLine("El paquete no existe todavía.");
