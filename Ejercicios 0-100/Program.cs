@@ -8,18 +8,19 @@ public class Program
 
         do
         {
-            Console.WriteLine("********* MENU DE EJERCICIOS **************");
-            Console.WriteLine("*       1 -> Ejercicios Básicos           *");
-            Console.WriteLine("*       2 -> Ejercicios Arrays            *");
-            Console.WriteLine("*       3 -> Ejercicios Especiales        *");
-            Console.WriteLine("*       4 -> Ejercicios Examen            *");
-            Console.WriteLine("*       5 -> Ejercicios Excepciones       *");
-            Console.WriteLine("*       6 -> Ejercicios Ficheros          *");
-            Console.WriteLine("*       7 -> Ejercicios Polimorfismos     *");
-            Console.WriteLine("*       8 -> Ejercicios Redefinicion      *");
-            Console.WriteLine("*       9 -> Ejercicios Interfaces        *");
-            Console.WriteLine("*       0 -> Salir del programa           *");
-            Console.WriteLine("*******************************************");
+            Console.WriteLine("************** MENU DE EJERCICIOS *************");
+            Console.WriteLine("*       1 -> Ejercicios Básicos               *");
+            Console.WriteLine("*       2 -> Ejercicios Arrays                *");
+            Console.WriteLine("*       3 -> Ejercicios Especiales            *");
+            Console.WriteLine("*       4 -> Ejercicios Examen                *");
+            Console.WriteLine("*       5 -> Ejercicios Excepciones           *");
+            Console.WriteLine("*       6 -> Ejercicios Ficheros              *");
+            Console.WriteLine("*       7 -> Ejercicios Polimorfismos         *");
+            Console.WriteLine("*       8 -> Ejercicios Redefinicion          *");
+            Console.WriteLine("*       9 -> Ejercicios Interfaces            *");
+            Console.WriteLine("*       10 -> Ejercicios Colecciones BCL      *");
+            Console.WriteLine("*       0 -> Salir del programa               *");
+            Console.WriteLine("***********************************************");
 
             try
             {
@@ -45,7 +46,7 @@ public class Program
                 Ejercicios_0_100.MenuBasico.main();
                 break;
             case 2: 
-                Ejercicios_0_100.MenuArrays.main();
+                Ejercicios_Array.MenuArrays.main();
                 break;
             case 3:
                 Ejercicios_Especiales.MenuEspeciales.main();
@@ -66,6 +67,9 @@ public class Program
                 Ejercicios_Redefinicion_Operadores.MenuRedefinicion.main(args);
                 break;
             case 9:
+                Ejercicios_Interfaces.MenuInterfaces.main(args);
+                break;
+            case 10:
                 Ejercicios_Interfaces.MenuInterfaces.main(args);
                 break;
             default:

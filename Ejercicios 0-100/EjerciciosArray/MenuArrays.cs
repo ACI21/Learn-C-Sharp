@@ -1,4 +1,4 @@
-﻿namespace Ejercicios_0_100;
+﻿namespace Ejercicios_Array;
 
 public class MenuArrays
 {
