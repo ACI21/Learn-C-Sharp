@@ -2,7 +2,7 @@ namespace Ejercicios_Genericos;
 
 class Ejercicio3
 {
-    public static void main(string[] args)
+    public static void main()
     {
         Console.WriteLine($"Mayor (5, 3): {Comparador<int>.Mayor(5, 3)}");
         Console.WriteLine($"Menor (3, 5): {Comparador<int>.Menor(3, 5)}");

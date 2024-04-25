@@ -4,7 +4,7 @@ namespace Ejercicios_Genericos;
 
 class Ejercicio5
 {
-    public static void main(string[] args)
+    public static void main()
     {
         var provincias = RecogeTemperaturasPorProvincia();
         var estrategiaMaxima = new ObtenMaxima();

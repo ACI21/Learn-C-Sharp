@@ -2,7 +2,7 @@ namespace Ejercicios_Genericos;
 
 class Ejercicio4
 {
-    public static void main(string[] args)
+    public static void main()
     {
         Persona persona1 = new Persona { Nombre = "Juan", Edad = 30 };
         Persona persona2 = new Persona { Nombre = "Ana", Edad = 25 };

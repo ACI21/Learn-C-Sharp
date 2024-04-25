@@ -1,6 +1,6 @@
 ﻿namespace Ejercicios_Genericos;
 
-public class MenuGenerios
+public class MenuGenericos
 {
     public static void main()
     {
@@ -9,9 +9,12 @@ public class MenuGenerios
         do
         {
             Console.WriteLine("********* MENU DE EJERCICIOS **************");
-            Console.WriteLine("*       1 -> Ejercicio                    *");
-            Console.WriteLine("*       2 -> Ejercicio                    *");
-            Console.WriteLine("*       3 -> Ejercicio                    *");
+            Console.WriteLine("*       1 -> Ejercicio 1                  *");
+            Console.WriteLine("*       2 -> Ejercicio 2                  *");
+            Console.WriteLine("*       3 -> Ejercicio 3                  *");
+            Console.WriteLine("*       4 -> Ejercicio 4                  *");
+            Console.WriteLine("*       5 -> Ejercicio 5                  *");
+            Console.WriteLine("*       6 -> Ejercicio 6                  *");
             Console.WriteLine("*       0 -> Volver al menu anterior      *");
             Console.WriteLine("*******************************************");
 
@@ -36,13 +39,22 @@ public class MenuGenerios
                 Console.WriteLine("Hasta luego y suerte 😂.");
                 break;
             case 1:
-                Ejercicios_0_100.EjercicioPaisArray.main();
+                Ejercicios_Genericos.Ejercicio1.main();
                 break;
             case 2:
-                Ejercicios_0_100.EjercicioMutiCine.main();
+                Ejercicios_Genericos.Ejercicio2.main();
                 break;
             case 3:
-                Ejercicios_0_100.EjercicioArrayDentado.main();
+                Ejercicios_Genericos.Ejercicio3.main();
+                break;
+            case 4:
+                Ejercicios_Genericos.Ejercicio4.main();
+                break;
+            case 5:
+                Ejercicios_Genericos.Ejercicio5.main();
+                break;
+            case 6:
+                Ejercicios_Genericos.Ejercicio6.main();
                 break;
             default:
                 Console.Error.WriteLine("El ejercicio no existe todavía.");

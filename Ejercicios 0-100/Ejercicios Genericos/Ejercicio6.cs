@@ -2,7 +2,7 @@ namespace Ejercicios_Genericos;
 
 class Ejercicio6
 {
-    public static void main(string[] args)
+    public static void main()
     {
         Lista<int> lista = new Lista<int>();
         lista.Add(5);
