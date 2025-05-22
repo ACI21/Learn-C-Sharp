@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Enunciados de Ejercicios en C#</title>
+    <style>
+        body {
+            font-family: Calibri, Arial, sans-serif;
+            line-height: 1.5;
+            margin: 3cm;
+        }
+        h1 {
+            color: #2e74b5;
+            text-align: center;
+            font-size: 24pt;
+        }
+        h2 {
+            color: #2e74b5;
+            border-bottom: 1px solid #2e74b5;
+            font-size: 18pt;
+            margin-top: 24pt;
+        }
+        h3 {
+            color: #5b9bd5;
+            font-size: 14pt;
+            margin-top: 18pt;
+        }
+        p, li {
+            font-size: 11pt;
+        }
+        ul, ol {
+            margin-left: 0;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enunciados de Ejercicios en C#</h1>
+    
+    <h2>Ejercicios Básicos</h2>
+    
+    <h3>Ejercicio 1: Conteo de patas de invertebrados</h3>
+    <p>Un biólogo está realizando un estudio de distintas especies de invertebrados y necesita una aplicación que le ayude a contabilizar el número de patas que tienen en total todos los animales capturados durante una jornada de trabajo.</p>
+    <p>Para ello, nos ha solicitado que escribamos una aplicación a la que hay que proporcionar:</p>
+    <ul>
+        <li>El número de hormigas capturadas (6 patas)</li>
+        <li>El número de arañas capturadas (8 patas)</li>
+        <li>El número de cochinillas capturadas (14 patas)</li>
+    </ul>
+    <p>La aplicación debe mostrar el número total de patas que poseen todos los animales.</p>
+    
+    <h3>Ejercicio 3: Gestión de alimentación en una granja</h3>
+    <p>Un granjero necesita calcular si tiene suficiente comida para todos los animales de su granja.</p>
+    <p>El programa debe:</p>
+    <ol>
+        <li>Solicitar al usuario la cantidad total de comida comprada (en kg)</li>
+        <li>Solicitar el número de animales en la granja</li>
+        <li>Calcular los kg de comida por animal</li>
+        <li>Indicar si hay suficiente comida para todos o cuántos kg debe consumir cada animal diariamente</li>
+    </ol>
+    
+    <h2>Ejercicios de Arrays</h2>
+    
+    <h3>Ejercicio: Arrays Dentados</h3>
+    <p>Crear un programa que trabaje con arrays dentados (jagged arrays) de múltiples dimensiones.</p>
+    <p>El programa debe:</p>
+    <ol>
+        <li>Crear un array de 2 tablas dentadas de enteros (array de 3 dimensiones)</li>
+        <li>Solicitar al usuario las dimensiones de cada tabla (número de filas)</li>
+        <li>Para cada fila, pedir el número de elementos que contendrá</li>
+        <li>Rellenar cada posición con números aleatorios entre 1 y 99</li>
+        <li>Mostrar el contenido completo de las tablas en formato legible</li>
+    </ol>
+    
+    <h3>Ejercicio: Sistema de Gestión de un Multicine</h3>
+    <p>Desarrollar un programa para gestionar la venta de entradas y estadísticas de aforo en un multicine.</p>
+    <p>El sistema debe:</p>
+    <ol>
+        <li>Gestionar 3 salas (A, B y C) con diferentes aforos (200, 150 y 125 respectivamente)</li>
+        <li>Permitir 3 sesiones diarias para cada sala</li>
+        <li>Implementar las siguientes funcionalidades:
+            <ul>
+                <li>Venta de entradas: permitir la compra de entradas verificando que no se supere el aforo máximo</li>
+                <li>Estadísticas: mostrar una tabla con la ocupación actual de cada sala y sesión</li>
+            </ul>
+        </li>
+        <li>Utilizar un array bidimensional para almacenar las ventas (filas=salas, columnas=sesiones)</li>
+    </ol>
+    
+    <h2>Ejercicios Genéricos</h2>
+    
+    <h3>Ejercicio 1: Implementación de una clase genérica para fracciones</h3>
+    <p>Crear una clase genérica llamada Fraccion&lt;T&gt; que permita representar fracciones matemáticas.</p>
+    <p>La clase debe:</p>
+    <ol>
+        <li>Permitir almacenar el numerador y denominador como valores de tipo genérico T</li>
+        <li>Proporcionar propiedades para acceder al numerador y denominador</li>
+        <li>Demostrar el uso de la clase con diferentes tipos numéricos (int, long)</li>
+    </ol>
+    
+    <h3>Ejercicio 2: Implementación de una clase con múltiples tipos genéricos</h3>
+    <p>Crear una clase genérica A&lt;TKey, TValue&gt; que implemente un par clave-valor con tipos genéricos.</p>
+    <p>La clase debe:</p>
+    <ol>
+        <li>Permitir definir dos tipos genéricos diferentes: uno para la clave y otro para el valor</li>
+        <li>Proporcionar propiedades para acceder a la clave y al valor</li>
+        <li>Demostrar el uso de la clase combinando diferentes tipos (ej: int, string)</li>
+    </ol>
+    
+    <h2>Ejercicios de Colecciones BCL</h2>
+    
+    <h3>Ejercicio 1: Operaciones Básicas con Listas en C#</h3>
+    <p>Implementar diferentes operaciones con la clase List&lt;T&gt; de la BCL para manipular colecciones.</p>
+    <p>El programa debe incluir las siguientes funciones:</p>
+    <ol>
+        <li>BorraEnteros: eliminar todas las ocurrencias de un número específico de una lista de enteros</li>
+        <li>Mezcla: combinar dos listas ordenadas de enteros en una sola lista ordenada (merge)</li>
+        <li>ImprimeInverso: mostrar los elementos de una lista de strings en orden inverso desde una posición dada</li>
+        <li>OrdenaCadenas: ordenar alfabéticamente una lista de cadenas</li>
+        <li>Demostrar el uso de todas estas funciones con ejemplos concretos</li>
+    </ol>
+    
+    <h2>Ejercicios de Colecciones Enlazadas</h2>
+    
+    <h3>Ejercicio 2: Tabla ASCII con LinkedList</h3>
+    <p>Crear un programa que genere y muestre una tabla de caracteres ASCII utilizando una lista enlazada.</p>
+    <p>El programa debe:</p>
+    <ol>
+        <li>Implementar una clase CaracterASCII que encapsule un carácter y sus representaciones (decimal, octal y hexadecimal)</li>
+        <li>Crear una LinkedList&lt;CaracterASCII&gt; y llenarla con 240 caracteres aleatorios únicos</li>
+        <li>Insertar los elementos en orden ascendente según su valor numérico</li>
+        <li>Mostrar la lista formateada en columnas con información sobre cada carácter:
+            <ul>
+                <li>Valor decimal (DEC)</li>
+                <li>Valor octal (OCT)</li>
+                <li>Valor hexadecimal (HEX)</li>
+                <li>El propio carácter (CAR)</li>
+            </ul>
+        </li>
+        <li>Ajustar las dimensiones de la consola para mostrar adecuadamente la tabla</li>
+    </ol>
+    
+    <h2>Ejercicios de Input/Output (IO)</h2>
+    
+    <h3>Ejercicio IO 1: Creación y Lectura de Archivos con FileStream</h3>
+    <p>Crear un programa que demuestre el uso básico de la clase FileStream para operaciones de E/S.</p>
+    <p>El programa debe:</p>
+    <ol>
+        <li>Solicitar al usuario la ruta completa donde crear un archivo</li>
+        <li>Verificar si el directorio existe, y crearlo si no existe</li>
+        <li>Pedir al usuario el contenido que desea escribir en el archivo</li>
+        <li>Crear el archivo y escribir los datos utilizando FileStream</li>
+        <li>Abrir el archivo para lectura y mostrar su contenido byte a byte</li>
+        <li>Implementar manejo de excepciones para gestionar posibles errores</li>
+    </ol>
+    
+    <h3>Ejercicio IO 2: Implementación de un Comando 'cp' para Copiar Archivos</h3>
+    <p>Crear un programa que simule el funcionamiento del comando 'cp' de sistemas Unix.</p>
+    <p>El programa debe:</p>
+    <ol>
+        <li>Recibir dos argumentos por línea de comandos: ruta del archivo origen y ruta del archivo destino</li>
+        <li>Verificar que el archivo de origen exista</li>
+        <li>Verificar que el archivo de destino no exista (para evitar sobrescrituras accidentales)</li>
+        <li>Copiar el contenido del archivo origen al destino utilizando FileStream</li>
+        <li>Implementar la copia mediante un buffer para optimizar el rendimiento</li>
+        <li>Mostrar mensajes apropiados en caso de éxito o error</li>
+    </ol>
+    
+    <h2>Ejercicios de Ficheros</h2>
+    
+    <h3>Ejercicio Fichero 1: Manejo de rutas de archivos con la clase Path</h3>
+    <p>Crear un programa que demuestre el uso de los principales métodos de la clase Path para manipular rutas de archivos.</p>
+    <p>El programa debe:</p>
+    <ol>
+        <li>Ofrecer al usuario la opción de trabajar con rutas absolutas o relativas</li>
+        <li>Mostrar el resultado de aplicar diferentes métodos de la clase Path:
+            <ul>
+                <li>GetExtension: obtener la extensión del archivo</li>
+                <li>GetFileName: obtener el nombre del archivo con extensión</li>
+                <li>GetFileNameWithoutExtension: obtener el nombre sin extensión</li>
+                <li>GetDirectoryName: obtener el nombre del directorio</li>
+                <li>GetPathRoot: obtener la raíz de la ruta</li>
+                <li>ChangeExtension: cambiar la extensión del archivo</li>
+                <li>GetFullPath: obtener la ruta completa a partir de una relativa</li>
+                <li>Combine: combinar dos rutas en una sola</li>
+            </ul>
+        </li>
+    </ol>
+    
+    <h3>Ejercicio Fichero 2: Gestión de Directorios y Ficheros</h3>
+    <p>Crear un programa para administrar el sistema de archivos mediante operaciones básicas.</p>
+    <p>El programa debe implementar un menú con las siguientes funcionalidades:</p>
+    <ol>
+        <li>Crear Árbol de Directorios: establecer una estructura de carpetas y archivos predefinida</li>
+        <li>Eliminar Directorio: solicitar la ruta y eliminar un directorio (incluyendo su contenido)</li>
+        <li>Eliminar Fichero: solicitar la ruta y eliminar un archivo específico</li>
+        <li>Mostrar Información de Directorio: listar el contenido (archivos y carpetas) de un directorio</li>
+        <li>Mostrar Atributos de Fichero: mostrar los atributos de un archivo específico</li>
+    </ol>
+    <p>El programa debe manejar posibles excepciones y mostrar mensajes informativos</p>
+    
+    <h2>Ejercicios de Polimorfismo</h2>
+    
+    <h3>Ejercicio 1: Polimorfismo con Sobrecarga de Métodos</h3>
+    <p>Implementar un sistema para calcular el coste de carreras de taxi usando sobrecarga de métodos.</p>
+    <p>El sistema debe:</p>
+    <ol>
+        <li>Utilizar una clase estática Taxi con el método CosteCarrera sobrecargado</li>
+        <li>Permitir calcular el coste básico (kilómetros y tiempo de espera)</li>
+        <li>Permitir aplicar recargos por:
+            <ul>
+                <li>Servicio nocturno (incremento porcentual)</li>
+                <li>Día festivo (porcentaje variable según el festivo)</li>
+                <li>Ocupación extra (mascotas u otros elementos que ocupen espacio)</li>
+            </ul>
+        </li>
+        <li>Realizar los cálculos respetando una tarifa mínima y teniendo en cuenta la bajada de bandera</li>
+        <li>Demostrar la funcionalidad con diferentes escenarios de uso</li>
+    </ol>
+    
+    <h2>Ejercicios de Excepciones</h2>
+    
+    <h3>Ejercicio Logaritmo 1: Manejo Básico de Excepciones</h3>
+    <p>Crear un programa que calcule el logaritmo en base 10 de un número proporcionado como argumento.</p>
+    <p>El programa debe:</p>
+    <ol>
+        <li>Verificar si se ha proporcionado al menos un argumento en la línea de comandos</li>
+        <li>Comprobar que el argumento sea un número válido utilizando TryParse</li>
+        <li>Validar que el número sea positivo (requisito para calcular logaritmos)</li>
+        <li>Capturar y manejar posibles excepciones:
+            <ul>
+                <li>ArgumentException: cuando el número es negativo o cero</li>
+                <li>Otras excepciones que puedan surgir durante el proceso</li>
+            </ul>
+        </li>
+        <li>Mostrar mensajes de error adecuados cuando se produzcan excepciones</li>
+    </ol>
+    
+    <h3>Ejercicio Banco: Sistema Bancario con Manejo de Excepciones Personalizadas</h3>
+    <p>Crear un sistema bancario simple que utilice excepciones personalizadas para validar operaciones.</p>
+    <p>El sistema debe:</p>
+    <ol>
+        <li>Implementar la clase NumeroCuenta para validar números de cuenta bancaria</li>
+        <li>Implementar la clase Cuenta que permita operaciones de ingreso y reintegro (retiro)</li>
+        <li>Crear excepciones personalizadas:
+            <ul>
+                <li>NumeroCuentaIncorrectoException: cuando el formato del número de cuenta es inválido</li>
+                <li>SaldoInsuficienteException: cuando se intenta retirar más dinero del disponible</li>
+            </ul>
+        </li>
+        <li>Demostrar el manejo de excepciones mediante bloques try-catch</li>
+        <li>Mostrar mensajes de error apropiados cuando se capturen las excepciones</li>
+    </ol>
+    
+    <h2>Ejercicios de Objetos</h2>
+    
+    <h3>Ejercicio: Creación y Manipulación de Objetos en C#</h3>
+    <p>Implementar un sistema básico de personajes para demostrar los conceptos de POO.</p>
+    <p>El ejercicio debe:</p>
+    <ol>
+        <li>Crear una clase Personaje con atributos (nombre, edad, raza) y métodos (saludar, atacar)</li>
+        <li>Implementar diferentes tipos de encapsulamiento:
+            <ul>
+                <li>Atributos privados con getters/setters personalizados (nombre)</li>
+                <li>Propiedades autoimplementadas (Edad, Raza)</li>
+            </ul>
+        </li>
+        <li>Implementar validación en los setters (nombre no puede ser nulo ni "Swiper")</li>
+        <li>Sobrescribir el método Equals para comparar personajes por raza y edad</li>
+        <li>Demostrar la creación y manipulación de objetos en la clase Principal</li>
+    </ol>
+    
+    <h2>Ejercicios Especiales</h2>
+    
+    <h3>Ejercicio: Juego del Ahorcado</h3>
+    <p>Implementar el clásico juego del ahorcado en consola.</p>
+    <p>El programa debe:</p>
+    <ol>
+        <li>Seleccionar aleatoriamente una palabra de un conjunto predefinido</li>
+        <li>Establecer un número aleatorio de vidas (entre 1 y 25)</li>
+        <li>Mostrar la palabra oculta representada por guiones</li>
+        <li>Permitir al jugador adivinar letras de una en una</li>
+        <li>Actualizar la visualización de la palabra a medida que se adivinan letras</li>
+        <li>Reducir las vidas cuando se introduce una letra incorrecta</li>
+        <li>Terminar el juego cuando:
+            <ul>
+                <li>Se adivina toda la palabra (victoria)</li>
+                <li>Se agotan todas las vidas (derrota)</li>
+            </ul>
+        </li>
+        <li>Dar la opción de jugar otra partida</li>
+    </ol>
+    
+    <h3>Ejercicio: Codificación Especular de Texto</h3>
+    <p>Crear un programa que transforme un texto aplicando varias técnicas de codificación.</p>
+    <p>El programa debe:</p>
+    <ol>
+        <li>Permitir al usuario introducir un texto (terminando con un punto)</li>
+        <li>Aplicar las siguientes transformaciones al texto:
+            <ul>
+                <li>Codificación especular: invertir cada palabra del texto, manteniendo el orden de las palabras</li>
+                <li>Codificación de puntuación: reemplazar los caracteres de puntuación (.,;:!¿?¡) con caracteres aleatorios del rango ASCII extendido (224-239)</li>
+            </ul>
+        </li>
+        <li>Mostrar el texto resultante después de aplicar ambas codificaciones</li>
+        <li>Incluir también un método para eliminar espacios (aunque no se use en la implementación principal)</li>
+    </ol>
+</body>
+</html> 

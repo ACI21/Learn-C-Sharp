@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciudades>
+    <ciudad>
+        <nombre>
+            Alicante
+        </nombre>
+        <medicion>
+            35,92
+        </medicion>
+        <hora>
+            12:35:40
+        </hora>
+    </ciudad>
+    <ciudad>
+        <nombre>
+            Castellon
+        </nombre>
+        <medicion>
+            37,34
+        </medicion>
+        <hora>
+            19:20:00
+        </hora>
+    </ciudad>
+    <ciudad>
+        <nombre>
+            Valencia
+        </nombre>
+        <medicion>
+            41,68
+        </medicion>
+        <hora>
+            14:25:41
+        </hora>
+    </ciudad>
+</ciudades>

@@ -1,3 +1,12 @@
+// Ejercicio Fichero 2: Gestión de Directorios y Ficheros
+// Crear un programa para administrar el sistema de archivos mediante operaciones básicas.
+// El programa debe implementar un menú con las siguientes funcionalidades:
+// 1. Crear Árbol de Directorios: establecer una estructura de carpetas y archivos predefinida
+// 2. Eliminar Directorio: solicitar la ruta y eliminar un directorio (incluyendo su contenido)
+// 3. Eliminar Fichero: solicitar la ruta y eliminar un archivo específico
+// 4. Mostrar Información de Directorio: listar el contenido (archivos y carpetas) de un directorio
+// 5. Mostrar Atributos de Fichero: mostrar los atributos de un archivo específico
+// El programa debe manejar posibles excepciones y mostrar mensajes informativos
 namespace Ejercicios_Ficheros;
 
 using System;

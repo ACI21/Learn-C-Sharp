@@ -1,3 +1,14 @@
+// Ejercicio 1: Polimorfismo con Sobrecarga de Métodos
+// Implementar un sistema para calcular el coste de carreras de taxi usando sobrecarga de métodos.
+// El sistema debe:
+// 1. Utilizar una clase estática Taxi con el método CosteCarrera sobrecargado
+// 2. Permitir calcular el coste básico (kilómetros y tiempo de espera)
+// 3. Permitir aplicar recargos por:
+//    - Servicio nocturno (incremento porcentual)
+//    - Día festivo (porcentaje variable según el festivo)
+//    - Ocupación extra (mascotas u otros elementos que ocupen espacio)
+// 4. Realizar los cálculos respetando una tarifa mínima y teniendo en cuenta la bajada de bandera
+// 5. Demostrar la funcionalidad con diferentes escenarios de uso
 namespace Ejercicios_Polimorfismos;
 public class ProgramEjercicio1
 {

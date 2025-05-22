@@ -1,4 +1,13 @@
-﻿namespace Ejercicios_IO;
+﻿// Ejercicio IO 2: Implementación de un Comando 'cp' para Copiar Archivos
+// Crear un programa que simule el funcionamiento del comando 'cp' de sistemas Unix.
+// El programa debe:
+// 1. Recibir dos argumentos por línea de comandos: ruta del archivo origen y ruta del archivo destino
+// 2. Verificar que el archivo de origen exista
+// 3. Verificar que el archivo de destino no exista (para evitar sobrescrituras accidentales)
+// 4. Copiar el contenido del archivo origen al destino utilizando FileStream
+// 5. Implementar la copia mediante un buffer para optimizar el rendimiento
+// 6. Mostrar mensajes apropiados en caso de éxito o error
+namespace Ejercicios_IO;
 
 public class EjercicioIO2
 {

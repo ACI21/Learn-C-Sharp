@@ -15,6 +15,8 @@ public class Ejercicio8
         Console.Write("Introduce el numero 3: ");
         numero3 = int.Parse(Console.ReadLine() ?? "0");
 
+        int mayor = numero1>numero2 ? numero1 : numero2;
+
         if (numero1 > numero2 && numero1 > numero3)
         {
             //el numero 1 es el más grande

@@ -1,4 +1,13 @@
-﻿
+﻿// Ejercicio: Sistema de Gestión de un Multicine
+// Desarrollar un programa para gestionar la venta de entradas y estadísticas de aforo en un multicine.
+// El sistema debe:
+// 1. Gestionar 3 salas (A, B y C) con diferentes aforos (200, 150 y 125 respectivamente)
+// 2. Permitir 3 sesiones diarias para cada sala
+// 3. Implementar las siguientes funcionalidades:
+//    - Venta de entradas: permitir la compra de entradas verificando que no se supere el aforo máximo
+//    - Estadísticas: mostrar una tabla con la ocupación actual de cada sala y sesión
+// 4. Utilizar un array bidimensional para almacenar las ventas (filas=salas, columnas=sesiones)
+
 namespace Ejercicios_0_100;
 
 public class EjercicioMutiCine

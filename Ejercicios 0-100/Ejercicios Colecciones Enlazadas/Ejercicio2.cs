@@ -1,3 +1,15 @@
+// Ejercicio 2: Tabla ASCII con LinkedList
+// Crear un programa que genere y muestre una tabla de caracteres ASCII utilizando una lista enlazada.
+// El programa debe:
+// 1. Implementar una clase CaracterASCII que encapsule un carácter y sus representaciones (decimal, octal y hexadecimal)
+// 2. Crear una LinkedList<CaracterASCII> y llenarla con 240 caracteres aleatorios únicos
+// 3. Insertar los elementos en orden ascendente según su valor numérico
+// 4. Mostrar la lista formateada en columnas con información sobre cada carácter:
+//    - Valor decimal (DEC)
+//    - Valor octal (OCT)
+//    - Valor hexadecimal (HEX)
+//    - El propio carácter (CAR)
+// 5. Ajustar las dimensiones de la consola para mostrar adecuadamente la tabla
 namespace Ejercicios_Colecciones_Enlazadas;
 
 class Ejercicio2

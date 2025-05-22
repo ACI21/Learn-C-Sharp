@@ -1,4 +1,17 @@
-﻿namespace Ejercicios_Especiales;
+﻿// Ejercicio: Juego del Ahorcado
+// Implementar el clásico juego del ahorcado en consola.
+// El programa debe:
+// 1. Seleccionar aleatoriamente una palabra de un conjunto predefinido
+// 2. Establecer un número aleatorio de vidas (entre 1 y 25)
+// 3. Mostrar la palabra oculta representada por guiones
+// 4. Permitir al jugador adivinar letras de una en una
+// 5. Actualizar la visualización de la palabra a medida que se adivinan letras
+// 6. Reducir las vidas cuando se introduce una letra incorrecta
+// 7. Terminar el juego cuando:
+//    - Se adivina toda la palabra (victoria)
+//    - Se agotan todas las vidas (derrota)
+// 8. Dar la opción de jugar otra partida
+namespace Ejercicios_Especiales;
 
 using System.Data.Common;
 using System.Text;

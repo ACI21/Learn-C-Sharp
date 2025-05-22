@@ -6,6 +6,7 @@
     <RootNamespace>Ejercicios_0_100</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>Ejercicios_0_100.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

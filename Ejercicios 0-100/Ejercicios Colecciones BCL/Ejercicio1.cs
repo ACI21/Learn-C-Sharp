@@ -1,3 +1,11 @@
+// Ejercicio 1: Operaciones Básicas con Listas en C#
+// Implementar diferentes operaciones con la clase List<T> de la BCL para manipular colecciones.
+// El programa debe incluir las siguientes funciones:
+// 1. BorraEnteros: eliminar todas las ocurrencias de un número específico de una lista de enteros
+// 2. Mezcla: combinar dos listas ordenadas de enteros en una sola lista ordenada (merge)
+// 3. ImprimeInverso: mostrar los elementos de una lista de strings en orden inverso desde una posición dada
+// 4. OrdenaCadenas: ordenar alfabéticamente una lista de cadenas
+// 5. Demostrar el uso de todas estas funciones con ejemplos concretos
 namespace Ejercicios_BCL;
 
 public class Ejercicio1

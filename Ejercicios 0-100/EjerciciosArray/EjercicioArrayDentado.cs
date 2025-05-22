@@ -1,4 +1,12 @@
-﻿namespace Ejercicios_0_100;
+﻿// Ejercicio: Arrays Dentados
+// Crear un programa que trabaje con arrays dentados (jagged arrays) de múltiples dimensiones.
+// El programa debe:
+// 1. Crear un array de 2 tablas dentadas de enteros (array de 3 dimensiones)
+// 2. Solicitar al usuario las dimensiones de cada tabla (número de filas)
+// 3. Para cada fila, pedir el número de elementos que contendrá
+// 4. Rellenar cada posición con números aleatorios entre 1 y 99
+// 5. Mostrar el contenido completo de las tablas en formato legible
+namespace Ejercicios_0_100;
 
 public class EjercicioArrayDentado
 {

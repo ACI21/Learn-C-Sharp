@@ -1,4 +1,13 @@
-﻿namespace Ejercicios_IO;
+﻿// Ejercicio IO 1: Creación y Lectura de Archivos con FileStream
+// Crear un programa que demuestre el uso básico de la clase FileStream para operaciones de E/S.
+// El programa debe:
+// 1. Solicitar al usuario la ruta completa donde crear un archivo
+// 2. Verificar si el directorio existe, y crearlo si no existe
+// 3. Pedir al usuario el contenido que desea escribir en el archivo
+// 4. Crear el archivo y escribir los datos utilizando FileStream
+// 5. Abrir el archivo para lectura y mostrar su contenido byte a byte
+// 6. Implementar manejo de excepciones para gestionar posibles errores
+namespace Ejercicios_IO;
 
 using System;
 using System.IO;

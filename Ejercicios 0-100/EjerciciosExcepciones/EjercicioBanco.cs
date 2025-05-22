@@ -1,3 +1,13 @@
+// Ejercicio Banco: Sistema Bancario con Manejo de Excepciones Personalizadas
+// Crear un sistema bancario simple que utilice excepciones personalizadas para validar operaciones.
+// El sistema debe:
+// 1. Implementar la clase NumeroCuenta para validar números de cuenta bancaria
+// 2. Implementar la clase Cuenta que permita operaciones de ingreso y reintegro (retiro)
+// 3. Crear excepciones personalizadas:
+//    - NumeroCuentaIncorrectoException: cuando el formato del número de cuenta es inválido
+//    - SaldoInsuficienteException: cuando se intenta retirar más dinero del disponible
+// 4. Demostrar el manejo de excepciones mediante bloques try-catch
+// 5. Mostrar mensajes de error apropiados cuando se capturen las excepciones
 namespace Ejercicios_Excepciones;
 
 using System;

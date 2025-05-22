@@ -1,3 +1,16 @@
+// Ejercicio 1: Manejo de rutas de archivos con la clase Path
+// Crear un programa que demuestre el uso de los principales métodos de la clase Path para manipular rutas de archivos.
+// El programa debe:
+// 1. Ofrecer al usuario la opción de trabajar con rutas absolutas o relativas
+// 2. Mostrar el resultado de aplicar diferentes métodos de la clase Path:
+//    - GetExtension: obtener la extensión del archivo
+//    - GetFileName: obtener el nombre del archivo con extensión
+//    - GetFileNameWithoutExtension: obtener el nombre sin extensión
+//    - GetDirectoryName: obtener el nombre del directorio
+//    - GetPathRoot: obtener la raíz de la ruta
+//    - ChangeExtension: cambiar la extensión del archivo
+//    - GetFullPath: obtener la ruta completa a partir de una relativa
+//    - Combine: combinar dos rutas en una sola
 using Microsoft.VisualBasic;
 
 namespace Ejercicios_Ficheros;

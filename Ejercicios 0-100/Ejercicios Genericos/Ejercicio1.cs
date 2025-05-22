@@ -1,3 +1,9 @@
+// Ejercicio 1: Implementación de una clase genérica para fracciones
+// Crear una clase genérica llamada Fraccion<T> que permita representar fracciones matemáticas.
+// La clase debe:
+// 1. Permitir almacenar el numerador y denominador como valores de tipo genérico T
+// 2. Proporcionar propiedades para acceder al numerador y denominador
+// 3. Demostrar el uso de la clase con diferentes tipos numéricos (int, long)
 namespace Ejercicios_Genericos;
 
 class Ejercicio1

@@ -1,4 +1,14 @@
-﻿namespace Ejercicios_Especiales;
+﻿// Ejercicio: Codificación Especular de Texto
+// Crear un programa que transforme un texto aplicando varias técnicas de codificación.
+// El programa debe:
+// 1. Permitir al usuario introducir un texto (terminando con un punto)
+// 2. Aplicar las siguientes transformaciones al texto:
+//    - Codificación especular: invertir cada palabra del texto, manteniendo el orden de las palabras
+//    - Codificación de puntuación: reemplazar los caracteres de puntuación (.,;:!¿?¡) con caracteres
+//      aleatorios del rango ASCII extendido (224-239)
+// 3. Mostrar el texto resultante después de aplicar ambas codificaciones
+// 4. Incluir también un método para eliminar espacios (aunque no se use en la implementación principal)
+namespace Ejercicios_Especiales;
 
 using System.Text;
 

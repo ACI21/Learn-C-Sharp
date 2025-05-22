@@ -1,3 +1,13 @@
+// Ejercicio Logaritmo 1: Manejo Básico de Excepciones
+// Crear un programa que calcule el logaritmo en base 10 de un número proporcionado como argumento.
+// El programa debe:
+// 1. Verificar si se ha proporcionado al menos un argumento en la línea de comandos
+// 2. Comprobar que el argumento sea un número válido utilizando TryParse
+// 3. Validar que el número sea positivo (requisito para calcular logaritmos)
+// 4. Capturar y manejar posibles excepciones:
+//    - ArgumentException: cuando el número es negativo o cero
+//    - Otras excepciones que puedan surgir durante el proceso
+// 5. Mostrar mensajes de error adecuados cuando se produzcan excepciones
 namespace Ejercicios_Excepciones;
 
 using System;
